@@ -79,9 +79,9 @@
   <p class="subtitle">KTM &amp; LRT Malaysia — breakdown / delay status, derived from news. Updated Mon–Fri 8:30am &amp; 4:30pm MYT.</p>
   <div class="grid" id="grid"><div id="loading">Loading status…</div></div>
   <footer>
-    Status is news-derived: a line with no disruption reports in the last 24 hours shows NORMAL.
-    A breakdown may take 15–30 minutes to appear in news after it happens.
-    Official sources: MyRapid PULSE app, @AskRapidKL, KTMB Facebook.
+    ⚡ Rapid KL official = status from myrapid.com.my (official service-status table + Prasarana posts; news kept as context).
+    📰 News-derived = no official feed exists (KTM) — status from Google News (EN/MY editions), last 24 hours.
+    Official sources for direct checks: MyRapid PULSE app, @AskRapidKL, KTMB Facebook.
   </footer>
 </div>
 <script>
@@ -121,7 +121,8 @@ function render(data) {
       const d = new Date(s.published);
       meta = "News: " + d.toLocaleString("en-MY", { dateStyle: "medium", timeStyle: "short" }) + " · ";
     }
-    meta += "Checked: " + new Date(data.generated_at).toLocaleString("en-MY", { dateStyle: "medium", timeStyle: "short" });
+    const srcLabel = s.source === "official" ? "⚡ Rapid KL official" : "📰 News-derived";
+    meta += srcLabel + " · Checked: " + new Date(data.generated_at).toLocaleString("en-MY", { dateStyle: "medium", timeStyle: "short" });
     card.innerHTML = `
       <div class="card-head">
         <span class="line-name">${line.name}</span>
