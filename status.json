@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-04T08:43:12.515474+00:00",
+  "generated_at": "2026-09-04T12:48:00.212498+00:00",
   "lines": {
     "ktm-komuter": {
-      "status": "breakdown",
+      "status": "normal",
       "source": "news",
-      "headline": "Perkhidmatan Komuter Lembah Klang, ETS tergendala akibat pokok tumbang",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT3JBaHVOMnpWQkluc0pzcDI1bVJtS1hPT3czMDNTcW8zeFUwMWRBNGsyNnFfczZmcFZ2bFZrajNfVlJYZlpGTWx4Vmo0Z0UzVXFieTNQeE9VUERwdmNYcnBYZEh5bUJTUHRyaWM5V09kdWtXSzh2eUR6NHVKOGF6Si1wcFlweGkyTXZ3dDJLNGxxTWxlZmJXeU4wTXUzdUMz?oc=5",
-      "published": "2026-09-03T12:03:49+00:00"
+      "headline": "No disruption reported in the last 24 hours",
+      "url": "",
+      "published": null
     },
     "ktm-ets": {
-      "status": "breakdown",
+      "status": "normal",
       "source": "news",
-      "headline": "Perkhidmatan Komuter Lembah Klang, ETS tergendala akibat pokok tumbang",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT3JBaHVOMnpWQkluc0pzcDI1bVJtS1hPT3czMDNTcW8zeFUwMWRBNGsyNnFfczZmcFZ2bFZrajNfVlJYZlpGTWx4Vmo0Z0UzVXFieTNQeE9VUERwdmNYcnBYZEh5bUJTUHRyaWM5V09kdWtXSzh2eUR6NHVKOGF6Si1wcFlweGkyTXZ3dDJLNGxxTWxlZmJXeU4wTXUzdUMz?oc=5",
-      "published": "2026-09-03T12:03:49+00:00"
+      "headline": "No disruption reported in the last 24 hours",
+      "url": "",
+      "published": null
     },
     "lrt-kelana-jaya": {
       "status": "normal",
