@@ -1,0 +1,36 @@
+name: Update rail status
+
+on:
+  schedule:
+    # Mon-Fri 8:30am & 4:30pm MYT (UTC+8) = 00:30 & 08:30 UTC
+    - cron: "30 0 * * 1-5"
+    - cron: "30 8 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-status
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch status
+        run: python scripts/fetch_status.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add status.json
+          git diff --cached --quiet || git commit -m "Update status.json [skip ci]"
+          git push
