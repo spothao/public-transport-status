@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T08:38:26.441585+00:00",
+  "generated_at": "2026-09-04T08:38:54.574143+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "breakdown",
@@ -23,7 +23,7 @@
       "published": "2026-09-04T07:11:00+08:00"
     },
     "lrt-ampang": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
       "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
       "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1284/",

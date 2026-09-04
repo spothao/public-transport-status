@@ -128,9 +128,12 @@ def fetch_pulse_alerts() -> dict[str, dict]:
             if needle not in title.lower() or line_id in seen:
                 continue
             seen.add(line_id)
+            # classify on title + excerpt: alterations like "mod operasi sementara"
+            # often appear only in the body text
+            excerpt = re.sub(r"\s+", " ", tail)[:400]
             entry = {"status": "normal", "remark": "", "url": url, "headline": title}
             if not is_resolved(title):
-                entry["status"] = classify_status(title)
+                entry["status"] = classify_status(title + " " + excerpt)
             if ts:
                 # myrapid is MYT (UTC+8)
                 months = {mm: i + 1 for i, mm in enumerate(
