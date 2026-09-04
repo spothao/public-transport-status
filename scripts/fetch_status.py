@@ -48,12 +48,28 @@ BREAKDOWN_WORDS = ["breakdown", "broke down", "stranded", "stuck", "rescue", "de
 DELAY_WORDS = [
     "delay", "delayed", "delays", "late", "slow", "lewat", "kelewatan", "tertunda",
     "ganggu", "gangguan", "disruption", "disrupted", "interruption", "tumbang", "kerosakan",
+    "mod operasi sementara",
 ]
 WINDOW_HOURS = 24
 
 # myrapid.com.my is Incapsula-walled; Jina Reader renders it and exposes the
 # official "Get the latest train services status" table + Prasarana news posts.
 MYRAPID_URL = "https://r.jina.ai/https://myrapid.com.my/"
+# The PULSE service-alerts feed is the live, timestamped alert stream — richer
+# and fresher than the homepage news section (includes same-morning updates).
+PULSE_ALERTS_URL = "https://r.jina.ai/https://myrapid.com.my/pulse/service-alerts-on-pulse/"
+
+# PULSE alert keywords -> our line ids. Bus alerts (Laluan NNN, Kelewatan Bas)
+# have no line keyword and are skipped implicitly.
+PULSE_ALERT_LINES = {
+    "kelana jaya": "lrt-kelana-jaya",
+    "ampang": "lrt-ampang",
+    "sri petaling": "lrt-ampang",
+    "monorel": "monorail",
+    "monorail": "monorail",
+    "kajang": "mrt-kajang",
+    "putrajaya": "mrt-putrajaya",
+}
 
 # Official table row label -> our line ids (Ampang & Sri Petaling share a card).
 RAPIDKL_TABLE_LINES = {
@@ -97,6 +113,34 @@ def classify_status(text: str) -> str:
 def is_resolved(text: str) -> bool:
     t = text.lower()
     return any(w in t for w in RESUMED_WORDS)
+
+
+def fetch_pulse_alerts() -> dict[str, dict]:
+    """Parse the live PULSE service-alerts feed (newest-first, page 1 only)."""
+    markdown = fetch_url(PULSE_ALERTS_URL)
+    result: dict[str, dict] = {}
+    seen: set[str] = set()
+    # Alert shape: "### [TITLE](url)" ... " September 4, 2026  7:11 am "
+    for m in re.finditer(r"### \[([^\]]+)\]\((https://myrapid\.com\.my/[^)]+)\)(.*?)(?=### \[|\Z)", markdown, re.S):
+        title, url, tail = m.group(1), m.group(2), m.group(3)
+        ts = re.search(r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),\s+(\d{4})\s+(\d{1,2}):(\d{2})\s*(am|pm)", tail)
+        for needle, line_id in PULSE_ALERT_LINES.items():
+            if needle not in title.lower() or line_id in seen:
+                continue
+            seen.add(line_id)
+            entry = {"status": "normal", "remark": "", "url": url, "headline": title}
+            if not is_resolved(title):
+                entry["status"] = classify_status(title)
+            if ts:
+                # myrapid is MYT (UTC+8)
+                months = {mm: i + 1 for i, mm in enumerate(
+                    ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"])}
+                hour = int(ts.group(4)) % 12 + (12 if ts.group(6) == "pm" else 0)
+                dt = datetime(int(ts.group(3)), months[ts.group(1)], int(ts.group(2)), hour, int(ts.group(5)), tzinfo=timezone(timedelta(hours=8)))
+                entry["published"] = dt.isoformat()
+            result[line_id] = entry
+            break
+    return result
 
 
 def fetch_official_rapidkl() -> dict[str, dict]:
@@ -183,6 +227,13 @@ def main() -> None:
         print(f"official source unavailable, falling back to news only: {e}", file=sys.stderr)
         official = {}
 
+    try:
+        # PULSE alerts are fresher and timestamped; they take precedence over
+        # the homepage table/news for any line they mention.
+        official.update(fetch_pulse_alerts())
+    except Exception as e:
+        print(f"PULSE alerts unavailable: {e}", file=sys.stderr)
+
     for line_id, (q_en, q_ms) in LINES.items():
         news_best: dict | None = None  # most severe + most recent news match
         for q, lang in [(q_en, "en"), (q_ms, "ms")]:
@@ -213,7 +264,7 @@ def main() -> None:
             # official alert wins over news
             entry = {"status": off["status"], "source": "official",
                      "headline": off.get("headline") or off.get("remark") or "Official service alert",
-                     "url": off.get("url", ""), "published": None}
+                     "url": off.get("url", ""), "published": off.get("published")}
         elif off:
             # official says normal; news-reported incident kept as context but status stays normal
             headline = off.get("headline")
@@ -221,7 +272,7 @@ def main() -> None:
                 headline = "Recently reported in news (official status: Normal): " + news_best["headline"]
             entry = {"status": "normal", "source": "official",
                      "headline": headline or "Normal service (per Rapid KL official)",
-                     "url": off.get("url") or (news_best or {}).get("url", ""), "published": None}
+                     "url": off.get("url") or (news_best or {}).get("url", ""), "published": off.get("published")}
         elif news_best:
             entry = {"status": news_best["status"], "source": "news", **news_best}
         else:
