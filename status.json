@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T12:48:00.212498+00:00",
+  "generated_at": "2026-09-07T01:21:59.199891+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,16 +18,16 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "KEMAS KINI LALUAN KELANA JAYA",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-61/",
-      "published": "2026-09-04T07:11:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "lrt-ampang": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1284/",
-      "published": "2026-09-04T07:00:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "mrt-kajang": {
       "status": "normal",
