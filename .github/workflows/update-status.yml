@@ -2,9 +2,14 @@ name: Update rail status
 
 on:
   schedule:
-    # Mon-Fri 8:30am & 4:30pm MYT (UTC+8) = 00:30 & 08:30 UTC
-    - cron: "30 0 * * 1-5"
-    - cron: "30 8 * * 1-5"
+    # Mon-Fri around 8:30am MYT (00:30 UTC) — two staggered runs because GitHub
+    # cron delays/drops single runs in this US-peak window; :17/:43 avoid the
+    # oversubscribed :00/:30 minute marks.
+    - cron: "17 0 * * 1-5"
+    - cron: "43 0 * * 1-5"
+    # Mon-Fri around 4:30pm MYT (08:30 UTC), same staggering.
+    - cron: "17 8 * * 1-5"
+    - cron: "43 8 * * 1-5"
   workflow_dispatch:
   push:
     branches: [main]
