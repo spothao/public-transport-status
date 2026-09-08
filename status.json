@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T14:25:57.024997+00:00",
+  "generated_at": "2026-09-08T04:47:03.231167+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -32,9 +32,9 @@
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini Kekerapan: Laluan Kajang",
+      "url": "https://myrapid.com.my/kemas-kini-kekerapan-laluan-kajang-85/",
+      "published": "2026-09-07T17:19:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
@@ -45,8 +45,8 @@
     },
     "monorail": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     }
