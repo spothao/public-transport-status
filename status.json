@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T13:02:44.681106+00:00",
+  "generated_at": "2026-09-09T04:50:02.802515+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,23 +18,23 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Pasar Seni)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-pasar-seni-17/",
-      "published": "2026-09-08T08:00:00+08:00"
+      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-25/",
+      "published": "2026-09-08T18:30:00+08:00"
     },
     "lrt-ampang": {
-      "status": "delayed",
-      "source": "official",
-      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1289/",
-      "published": "2026-09-08T07:00:00+08:00"
+      "status": "normal",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
+      "url": "",
+      "published": null
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Kekerapan: Laluan Kajang",
-      "url": "https://myrapid.com.my/kemas-kini-kekerapan-laluan-kajang-86/",
-      "published": "2026-09-08T08:04:00+08:00"
+      "headline": "Kemas Kini: Laluan Kajang (Stesen Bukit Bintang)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-bukit-bintang-15/",
+      "published": "2026-09-08T19:20:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
@@ -45,8 +45,8 @@
     },
     "monorail": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     }
