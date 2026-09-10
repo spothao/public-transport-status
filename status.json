@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T13:08:26.256823+00:00",
+  "generated_at": "2026-09-10T04:51:38.082593+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -16,25 +16,25 @@
       "published": null
     },
     "lrt-kelana-jaya": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-25/",
-      "published": "2026-09-08T18:30:00+08:00"
+      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Sri Rampai, Wangsa Maju, Setiawangsa, Jelatek, Masjid Jamek dan Pasar Seni)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-sri-rampai-wangsa-maju-setiawangsa-jelatek-masjid-jamek-dan-pasar-seni/",
+      "published": "2026-09-10T06:45:00+08:00"
     },
     "lrt-ampang": {
+      "status": "delayed",
+      "source": "official",
+      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1293/",
+      "published": "2026-09-10T07:00:00+08:00"
+    },
+    "mrt-kajang": {
       "status": "normal",
       "source": "official",
       "headline": "Normal service (per Rapid KL official)",
       "url": "",
       "published": null
-    },
-    "mrt-kajang": {
-      "status": "normal",
-      "source": "official",
-      "headline": "Kemas Kini: Laluan Kajang (Stesen Bukit Bintang)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-bukit-bintang-15/",
-      "published": "2026-09-08T19:20:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
@@ -46,9 +46,9 @@
     "monorail": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini Kekerapan: Laluan Monorel",
+      "url": "https://myrapid.com.my/kemas-kini-kekerapan-laluan-monorel-54/",
+      "published": "2026-09-10T08:11:00+08:00"
     }
   }
 }
