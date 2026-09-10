@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T05:12:24.382619+00:00",
+  "generated_at": "2026-09-10T06:11:41.272285+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -31,8 +31,8 @@
     },
     "mrt-kajang": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     },
