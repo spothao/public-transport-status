@@ -110,11 +110,12 @@ const PULSE_LINE_KEYWORDS = [
   ["putrajaya", "mrt-putrajaya"],
 ];
 // KTM live: Bing News RSS via Jina (Bing has no CORS headers; Jina proxies it).
-// Bing's Malay-language results are empty, so English queries only — the
-// cron cache (Google News EN+MS) remains the fallback for Malay coverage.
+// Simple queries only — Bing News RSS returns 0 items for OR syntax. Bing's
+// Malay results are empty, so English only; the cron cache (Google News EN+MS)
+// remains the fallback for Malay coverage.
 const KTM_LIVE_QUERIES = {
-  "ktm-komuter": "KTM+Komuter+delay+OR+breakdown+OR+disrupted",
-  "ktm-ets": "KTM+ETS+delay+OR+breakdown+OR+disrupted",
+  "ktm-komuter": ["KTM+Komuter+delay", "KTM+Komuter+breakdown"],
+  "ktm-ets": ["KTM+ETS+delay", "KTM+ETS+breakdown"],
 };
 const KTM_WINDOW_HOURS = 24;
 
@@ -173,13 +174,18 @@ function parseBingNews(markdown) {
     const title = m[1];
     const dm = m[3].match(/(Mon|Tue|Wed|Thu|Fri|Sat|Sun), \d{1,2} [A-Za-z]{3} \d{4} \d{2}:\d{2}:\d{2} GMT/);
     const published = dm ? new Date(dm[0]).getTime() : null;
-    for (const [lineId, query] of Object.entries(KTM_LIVE_QUERIES)) {
+    for (const lineId of Object.keys(KTM_LIVE_QUERIES)) {
       if (!title.toLowerCase().includes(lineId === "ktm-ets" ? "ets" : "komuter")) continue;
       if (published !== null && published < cutoff) continue;
-      if (isResolved(title)) { result[lineId] = null; break; }
-      const status = classifyStatus(title);
+      const status = isResolved(title) ? "normal" : classifyStatus(title);
       if (status !== "normal" && !(lineId in result)) {
         result[lineId] = { status, headline: title, url: decodeBingUrl(m[2]), source: "news-live", published: published };
+      } else if (status === "normal" && isResolved(title)) {
+        // a newer "restored" headline clears an older disruption
+        const cur = result[lineId];
+        if (!cur || published === null || cur.published === null || published >= cur.published) {
+          result[lineId] = { status: "normal", headline: title, url: decodeBingUrl(m[2]), source: "news-live", published: published };
+        }
       }
       break;
     }
@@ -188,19 +194,26 @@ function parseBingNews(markdown) {
 }
 
 function fetchLiveKtm() {
-  return Promise.all(Object.entries(KTM_LIVE_QUERIES).map(([lineId, q]) =>
-    fetch("https://r.jina.ai/https://www.bing.com/news/search?q=" + q + "&format=rss")
-      .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
-      .catch(() => "")
-  )).then(docs => {
-    const perQuery = docs.map(md => md ? parseBingNews(md) : {});
+  const jobs = [];
+  for (const queries of Object.values(KTM_LIVE_QUERIES)) {
+    for (const q of queries) {
+      jobs.push(fetch("https://r.jina.ai/https://www.bing.com/news/search?q=" + q + "&format=rss", {headers: {"x-no-cache": "true"}})
+        .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+        .catch(() => ""));
+    }
+  }
+  return Promise.all(jobs).then(docs => {
     const merged = {};
-    for (const q of perQuery) Object.assign(merged, q);
+    for (const md of docs) {
+      if (!md) continue;
+      Object.assign(merged, parseBingNews(md));
+    }
     let applied = 0;
     if (currentData) {
       for (const [id, entry] of Object.entries(merged)) {
         if (entry) { currentData.lines[id] = entry; applied++; }
       }
+      render(currentData);
     }
     return applied > 0 ? applied + " KTM lines refreshed live" : "";
   });
