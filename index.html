@@ -76,12 +76,12 @@
 <body>
 <div class="wrap">
   <h1>🚆 KL Rail Status</h1>
-  <p class="subtitle">KTM &amp; LRT Malaysia — breakdown / delay status. Rapid KL lines refresh live on every page load; KTM from scheduled news checks. <span id="live-status" style="opacity:.7"></span></p>
+  <p class="subtitle">KTM &amp; LRT Malaysia — breakdown / delay status. All lines refresh live on every page load. <span id="live-status" style="opacity:.7"></span></p>
   <div class="grid" id="grid"><div id="loading">Loading status…</div></div>
   <footer>
-    ⚡ Live = fetched from official PULSE alerts (myrapid.com.my) in your browser just now.
-    ⚡ Rapid KL official = latest scheduled check of official sources.
-    📰 News-derived = no official feed exists (KTM) — status from Google News (EN/MY editions), last 24 hours.
+    ⚡ Live (official) = fetched from PULSE alerts (myrapid.com.my) in your browser just now.
+    📰 Live (news) = KTM, fetched from Bing News in your browser just now (English coverage; cached Malay coverage as fallback).
+    Other cards = latest scheduled check (cron cache).
     Official sources for direct checks: MyRapid PULSE app, @AskRapidKL, KTMB Facebook.
   </footer>
 </div>
@@ -109,9 +109,18 @@ const PULSE_LINE_KEYWORDS = [
   ["kajang", "mrt-kajang"],
   ["putrajaya", "mrt-putrajaya"],
 ];
+// KTM live: Bing News RSS via Jina (Bing has no CORS headers; Jina proxies it).
+// Bing's Malay-language results are empty, so English queries only — the
+// cron cache (Google News EN+MS) remains the fallback for Malay coverage.
+const KTM_LIVE_QUERIES = {
+  "ktm-komuter": "KTM+Komuter+delay+OR+breakdown+OR+disrupted",
+  "ktm-ets": "KTM+ETS+delay+OR+breakdown+OR+disrupted",
+};
+const KTM_WINDOW_HOURS = 24;
+
 const BREAKDOWN_WORDS = ["breakdown", "broke down", "stranded", "stuck", "rescue", "derail", "tergendala", "dirosakkan"];
 const DELAY_WORDS = ["delay", "delayed", "delays", "late", "slow", "lewat", "kelewatan", "tertunda", "ganggu", "gangguan", "disruption", "disrupted", "interruption", "tumbang", "kerosakan", "mod operasi sementara"];
-const RESUMED_WORDS = ["kembali beroperasi", "dipulihkan", "back to normal", "resumed", "seperti biasa"];
+const RESUMED_WORDS = ["kembali beroperasi", "dipulihkan", "back to normal", "resumed", "seperti biasa", "restored", "fully restored"];
 
 let currentData = null;
 
@@ -149,6 +158,54 @@ function parsePulseAlerts(markdown) {
   return result;
 }
 
+function decodeBingUrl(bingUrl) {
+  const m = bingUrl.match(/[?&]url=([^&]+)/);
+  if (!m) return bingUrl;
+  try { return decodeURIComponent(m[1]); } catch { return bingUrl; }
+}
+
+function parseBingNews(markdown) {
+  const result = {};
+  const re = /### \[([^\]]+)\]\((http[^\)]+)\)([\s\S]*?)(?=### \[|«|$)/g;
+  let m;
+  const cutoff = Date.now() - KTM_WINDOW_HOURS * 3600 * 1000;
+  while ((m = re.exec(markdown)) !== null) {
+    const title = m[1];
+    const dm = m[3].match(/(Mon|Tue|Wed|Thu|Fri|Sat|Sun), \d{1,2} [A-Za-z]{3} \d{4} \d{2}:\d{2}:\d{2} GMT/);
+    const published = dm ? new Date(dm[0]).getTime() : null;
+    for (const [lineId, query] of Object.entries(KTM_LIVE_QUERIES)) {
+      if (!title.toLowerCase().includes(lineId === "ktm-ets" ? "ets" : "komuter")) continue;
+      if (published !== null && published < cutoff) continue;
+      if (isResolved(title)) { result[lineId] = null; break; }
+      const status = classifyStatus(title);
+      if (status !== "normal" && !(lineId in result)) {
+        result[lineId] = { status, headline: title, url: decodeBingUrl(m[2]), source: "news-live", published: published };
+      }
+      break;
+    }
+  }
+  return result;
+}
+
+function fetchLiveKtm() {
+  return Promise.all(Object.entries(KTM_LIVE_QUERIES).map(([lineId, q]) =>
+    fetch("https://r.jina.ai/https://www.bing.com/news/search?q=" + q + "&format=rss")
+      .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+      .catch(() => "")
+  )).then(docs => {
+    const perQuery = docs.map(md => md ? parseBingNews(md) : {});
+    const merged = {};
+    for (const q of perQuery) Object.assign(merged, q);
+    let applied = 0;
+    if (currentData) {
+      for (const [id, entry] of Object.entries(merged)) {
+        if (entry) { currentData.lines[id] = entry; applied++; }
+      }
+    }
+    return applied > 0 ? applied + " KTM lines refreshed live" : "";
+  });
+}
+
 function fetchLivePulse() {
   return fetch(PULSE_URL)
     .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
@@ -171,9 +228,11 @@ fetch("status.json", { cache: "no-store" })
   .then(data => {
     currentData = data;
     render(data);
-    const note = fetchLivePulse();
+    const note = Promise.all([fetchLivePulse(), fetchLiveKtm()]);
     const el = document.getElementById("live-status");
-    if (el) note.then(t => { el.textContent = t; });
+    if (el) note.then(([pulseMsg, ktmMsg]) => {
+      el.textContent = [pulseMsg, ktmMsg].filter(Boolean).join(" ");
+    });
   })
   .catch(() => {
     document.getElementById("loading").textContent = "Failed to load status.json";
@@ -200,6 +259,7 @@ function render(data) {
     }
     const srcLabel = s.source === "official-live" ? "⚡ Rapid KL official (live)"
       : s.source === "official" ? "⚡ Rapid KL official"
+      : s.source === "news-live" ? "📰 News (live)"
       : "📰 News-derived";
     meta += srcLabel + " · Checked: " + new Date(data.generated_at).toLocaleString("en-MY", { dateStyle: "medium", timeStyle: "short" });
     card.innerHTML = `
