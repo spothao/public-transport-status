@@ -76,10 +76,11 @@
 <body>
 <div class="wrap">
   <h1>🚆 KL Rail Status</h1>
-  <p class="subtitle">KTM &amp; LRT Malaysia — breakdown / delay status, derived from news. Updated Mon–Fri 8:30am &amp; 4:30pm MYT.</p>
+  <p class="subtitle">KTM &amp; LRT Malaysia — breakdown / delay status. Rapid KL lines refresh live on every page load; KTM from scheduled news checks. <span id="live-status" style="opacity:.7"></span></p>
   <div class="grid" id="grid"><div id="loading">Loading status…</div></div>
   <footer>
-    ⚡ Rapid KL official = status from myrapid.com.my (official service-status table + Prasarana posts; news kept as context).
+    ⚡ Live = fetched from official PULSE alerts (myrapid.com.my) in your browser just now.
+    ⚡ Rapid KL official = latest scheduled check of official sources.
     📰 News-derived = no official feed exists (KTM) — status from Google News (EN/MY editions), last 24 hours.
     Official sources for direct checks: MyRapid PULSE app, @AskRapidKL, KTMB Facebook.
   </footer>
@@ -95,9 +96,85 @@ const LINES = [
   { id: "monorail", name: "KL Monorail" },
 ];
 
+// Live override: fetch the official PULSE alerts feed via Jina Reader (CORS-open)
+// on every page load, so Rapid KL lines are current even when the cron is delayed.
+// KTM stays on cached status.json (news-derived; no official feed exists).
+const PULSE_URL = "https://r.jina.ai/https://myrapid.com.my/pulse/service-alerts-on-pulse/";
+const PULSE_LINE_KEYWORDS = [
+  ["kelana jaya", "lrt-kelana-jaya"],
+  ["ampang", "lrt-ampang"],
+  ["sri petaling", "lrt-ampang"],
+  ["monorel", "monorail"],
+  ["monorail", "monorail"],
+  ["kajang", "mrt-kajang"],
+  ["putrajaya", "mrt-putrajaya"],
+];
+const BREAKDOWN_WORDS = ["breakdown", "broke down", "stranded", "stuck", "rescue", "derail", "tergendala", "dirosakkan"];
+const DELAY_WORDS = ["delay", "delayed", "delays", "late", "slow", "lewat", "kelewatan", "tertunda", "ganggu", "gangguan", "disruption", "disrupted", "interruption", "tumbang", "kerosakan", "mod operasi sementara"];
+const RESUMED_WORDS = ["kembali beroperasi", "dipulihkan", "back to normal", "resumed", "seperti biasa"];
+
+let currentData = null;
+
+function classifyStatus(text) {
+  const t = text.toLowerCase();
+  if (BREAKDOWN_WORDS.some(w => t.includes(w))) return "breakdown";
+  if (DELAY_WORDS.some(w => t.includes(w))) return "delayed";
+  return "normal";
+}
+
+function isResolved(text) {
+  const t = text.toLowerCase();
+  return RESUMED_WORDS.some(w => t.includes(w));
+}
+
+function parsePulseAlerts(markdown) {
+  const result = {};
+  // Feed is newest-first: the first alert per line is authoritative, so a
+  // resolution post clears an older disruption post.
+  const re = /### \[([^\]]+)\]\((https:\/\/myrapid\.com\.my\/[^)]+)\)([\s\S]*?)(?=### \[|«|$)/g;
+  let m;
+  while ((m = re.exec(markdown)) !== null) {
+    const title = m[1], url = m[2];
+    for (const [needle, lineId] of PULSE_LINE_KEYWORDS) {
+      if (title.toLowerCase().includes(needle) && !result[lineId]) {
+        // classify on title + excerpt: alterations like "mod operasi sementara"
+        // often appear only in the alert body
+        const excerpt = m[3].replace(/\s+/g, " ").slice(0, 400);
+        const status = isResolved(title) ? "normal" : classifyStatus(title + " " + excerpt);
+        result[lineId] = { status, headline: title, url, source: "official-live", published: null };
+        break;
+      }
+    }
+  }
+  return result;
+}
+
+function fetchLivePulse() {
+  return fetch(PULSE_URL)
+    .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+    .then(md => {
+      const live = parsePulseAlerts(md);
+      const applied = Object.keys(live);
+      if (applied.length > 0 && currentData) {
+        for (const id of applied) currentData.lines[id] = live[id];
+        currentData.generated_at = new Date().toISOString();
+        render(currentData);
+        return "· " + applied.length + " Rapid KL lines refreshed live";
+      }
+      throw new Error("no line alerts parsed");
+    })
+    .catch(e => "· live refresh unavailable (" + e.message + ")");
+}
+
 fetch("status.json", { cache: "no-store" })
   .then(r => r.json())
-  .then(data => render(data))
+  .then(data => {
+    currentData = data;
+    render(data);
+    const note = fetchLivePulse();
+    const el = document.getElementById("live-status");
+    if (el) note.then(t => { el.textContent = t; });
+  })
   .catch(() => {
     document.getElementById("loading").textContent = "Failed to load status.json";
   });
@@ -121,7 +198,9 @@ function render(data) {
       const d = new Date(s.published);
       meta = "News: " + d.toLocaleString("en-MY", { dateStyle: "medium", timeStyle: "short" }) + " · ";
     }
-    const srcLabel = s.source === "official" ? "⚡ Rapid KL official" : "📰 News-derived";
+    const srcLabel = s.source === "official-live" ? "⚡ Rapid KL official (live)"
+      : s.source === "official" ? "⚡ Rapid KL official"
+      : "📰 News-derived";
     meta += srcLabel + " · Checked: " + new Date(data.generated_at).toLocaleString("en-MY", { dateStyle: "medium", timeStyle: "short" });
     card.innerHTML = `
       <div class="card-head">
