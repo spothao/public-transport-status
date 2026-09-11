@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T13:06:04.653581+00:00",
+  "generated_at": "2026-09-11T00:01:56.332800+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,16 +18,16 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "RAPID KL SAHKAN INSIDEN BUNYI LETUPAN KECIL DI LALUAN KELANA JAYA",
-      "url": "https://myrapid.com.my/rapid-kl-sahkan-insiden-bunyi-letupan-kecil-di-laluan-kelana-jaya-2/",
-      "published": null
+      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-30/",
+      "published": "2026-09-10T17:45:00+08:00"
     },
     "lrt-ampang": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1294/",
+      "published": "2026-09-10T16:55:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
@@ -46,9 +46,9 @@
     "monorail": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Kekerapan: Laluan Monorel",
-      "url": "https://myrapid.com.my/kemas-kini-kekerapan-laluan-monorel-54/",
-      "published": "2026-09-10T08:11:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     }
   }
 }
