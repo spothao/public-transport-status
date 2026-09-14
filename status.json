@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:59:53.874568+00:00",
+  "generated_at": "2026-09-14T01:18:05.412881+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,16 +18,16 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "KEMAS KINI LALUAN KELANA JAYA",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-62/",
-      "published": "2026-09-11T06:01:00+08:00"
+      "headline": "Perkhidmatan Pulih: Laluan Kelana Jaya",
+      "url": "https://myrapid.com.my/perkhidmatan-pulih-laluan-kelana-jaya-12/",
+      "published": "2026-09-13T09:33:00+08:00"
     },
     "lrt-ampang": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1295/",
-      "published": "2026-09-11T07:00:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "mrt-kajang": {
       "status": "normal",
@@ -46,9 +46,9 @@
     "monorail": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Kekerapan: Laluan Monorel",
-      "url": "https://myrapid.com.my/kemas-kini-kekerapan-laluan-monorel-56/",
-      "published": "2026-09-11T07:53:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     }
   }
 }
