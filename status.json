@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T13:51:04.339251+00:00",
+  "generated_at": "2026-09-16T04:56:12.597998+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,23 +18,23 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-33/",
-      "published": "2026-09-14T18:49:00+08:00"
+      "headline": "Perkhidmatan Pulih: Laluan Kelana Jaya",
+      "url": "https://myrapid.com.my/perkhidmatan-pulih-laluan-kelana-jaya-13/",
+      "published": "2026-09-15T19:31:00+08:00"
     },
     "lrt-ampang": {
-      "status": "delayed",
-      "source": "official",
-      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1299/",
-      "published": "2026-09-14T16:55:00+08:00"
-    },
-    "mrt-kajang": {
       "status": "normal",
       "source": "official",
       "headline": "Normal service (per Rapid KL official)",
       "url": "",
       "published": null
+    },
+    "mrt-kajang": {
+      "status": "delayed",
+      "source": "official",
+      "headline": "Perkhidmatan Pulih: Laluan Kajang",
+      "url": "https://myrapid.com.my/perkhidmatan-pulih-laluan-kajang-15/",
+      "published": "2026-09-15T21:19:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
