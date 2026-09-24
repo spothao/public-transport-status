@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T13:50:09.216264+00:00",
+  "generated_at": "2026-09-24T00:55:31.967084+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "delayed",
@@ -18,16 +18,16 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "KEMAS KINI LALUAN KELANA JAYA:PERKHIDMATAN KEMBALI NORMAL BERMULA JAM 1.13 TENGAH HARI",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-perkhidmatan-kembali-normal-bermula-jam-1-13-tengah-hari/",
-      "published": null
+      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-40/",
+      "published": "2026-09-23T17:00:00+08:00"
     },
     "lrt-ampang": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1312/",
+      "published": "2026-09-23T16:55:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
