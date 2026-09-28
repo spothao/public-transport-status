@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-28T05:48:12.176229+00:00",
+  "generated_at": "2026-09-28T16:47:43.284897+00:00",
   "lines": {
     "ktm-komuter": {
-      "status": "delayed",
+      "status": "normal",
       "source": "news",
-      "headline": "Signalling fault throws KTM Komuter and ETS schedules off track, delays top five hours",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMkxuSmdJVUNZZ015SVg0LURNMlRCOC13ekVnM1Q0c2tyZjh1Y0FldFpJNUxrNUV4VFZIc1UybzZFZWNPNGJ1azc1MFJzTTktbGRNOHBnZVpWTFZaYkljbEZ1bnRxa3dnOUxJVU5QdE5VV2JaQTViSWlCSnk1SERRRExWVWI2d043M0gyUGZlX3ItcTg3dlRRdFZrdlItRkgtWFRDMk5ENGdjdjBEMV9zamtrQVBjM2htRnhLdC1sV2YwMjFLUWYzQjNlQ2o5ZUZZZ1BRU3pQbkppOUXSAeABQVVfeXFMT0tDb2ktdGxLR3VjeWxxdkF5ZG15REZLT0VtUVpHUEpaNzdRRjZINk5NRjdScUw4b1oxQkNBdnYtNm15OWpFeW5laWFmVHpKNXliYVVUNnV1NUdYN1NlU1AxdEpLcVRqYVlaMUhEc1pqdzRfOG1GUkE0aF8xVVFQd1N2NGhIem9SN0gxR1o2bnZ3TVdRaUE0MlJNdlJOZEpiM0gtOUplVE10WFotNXhGUDZ3NVJ3V2xROFBySHdaYzBKUUE3THh1ckhQRllOZmJoRVdEWWdzQk81dHlYYlEwNno?oc=5",
-      "published": "2026-09-27T07:40:56+00:00"
+      "headline": "No disruption reported in the last 24 hours",
+      "url": "",
+      "published": null
     },
     "ktm-ets": {
-      "status": "delayed",
+      "status": "normal",
       "source": "news",
-      "headline": "Gangguan sistem semboyan punca KTM Komuter, ETS lewat hingga 5 jam",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGl4Uk1ZeVpmbHdXUWZHV2U0OGo0WXFEano1aVFaSE5mRzhEUF9ObzFOd05McHFxZEMyVWdIc3ZqeGJwc2FjU1doeEpMT04yRk92OHdaNWRoZHhMdTVXUlZfSjVPSnAyTTFMNEJTV3NOeWgyaUxKZ3FaazB4S0xaWUlFb0pVWUdsbkNCWTZVeldJS2tyNG9xR3E1bnNXdTlQd2pj?oc=5",
-      "published": "2026-09-27T07:10:39+00:00"
+      "headline": "No disruption reported in the last 24 hours",
+      "url": "",
+      "published": null
     },
     "lrt-kelana-jaya": {
       "status": "delayed",
