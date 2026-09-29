@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:09:04.506393+00:00",
+  "generated_at": "2026-09-29T14:52:31.621213+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -39,8 +39,8 @@
     "mrt-putrajaya": {
       "status": "normal",
       "source": "official",
-      "headline": "KEMAS KINI LALUAN PUTRAJAYA:PERKHIDMATAN KEMBALI BEROPERASI SEPERTI BIASA BERMULA JAM 9.32 PAGI",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-putrajaya-perkhidmatan-kembali-beroperasi-seperti-biasa-bermula-jam-9-32-pagi/",
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
       "published": null
     },
     "monorail": {
