@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-30T05:55:46.433295+00:00",
+  "generated_at": "2026-09-30T09:16:21.273877+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "delayed",
       "source": "news",
-      "headline": "ETS, KTM Komuter services face disruption after suspected animal contact damages power line",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdWYycnNvMGpIX0w4bnpMYzJEVi1QZld4WlNXTlpaSExwOHg0YWNaYnpVZjdzazNQaldoU3dMREJyVHlUcTAzQ1ExZ0w0NmFBNlRIOGxsZ2pzUEl4STlZYTR2dERWNWJJamRPZHVZREpRQi04MGhPTEtkWmpOcnJyTUlOMWJkWWJiWXdnM0dIVTZVUmxvd3d0dmlYYzNCZW5tTFg5TkVUendtN05JcUo0U3ZrbGtyWU9odnFmOElpcGt0azVuNGUza19vdGNQLWM0NElBRU1YY3h5VEZkdmdXMzZ30gHnAUFVX3lxTE9mVXlJNDhyZ2Nnb1lXTDFLRTdGYm81dVZKdWJpamJOM29UaGcwa2lsMEU1bDZjM0xDNk1QY1NfR2prS2pQVS1sU1lSakZiQXVURzhRVUphR2pKX2J6UkpYVS02NFRuX18tdFQ2NEdxVXl6bThSTVRXcEp2bzRzSVNsZlJqX2R4WnE2Y2wxNzRtUzlhOVBmaEhmQ2ZwZ1pyZ2RYNXhHa2xiTnlycFlBdW5OZlNIeHJfZXRVaGtBaDlCbEVMTmszVDh1dHFsUFJXc3VnUHV3MXhjVDRidG1ndjZjcVFKU21VVQ?oc=5",
-      "published": "2026-09-30T02:48:16+00:00"
+      "headline": "Komuter, ETS kembali beroperasi selepas gangguan elektrik",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY0M3dzlXd19yTF8taHdTd0VTdUhZTS05WERjbEVqQllOQTFXYWlscFM0Vzc3Y1pHUkNUbk5scTF2RXMyTUJ6UU4tRnNxT1JaN21OYThYYzI5TTVvTW42VkNvYnJCZUdfNkRMd01La0hjZmo0eDJ3MXhNQ0ljTkE5a2RZZW4zZjRjeGU2NmRuM1daelg1V0hOTWFhek4?oc=5",
+      "published": "2026-09-30T08:03:01+00:00"
     },
     "ktm-ets": {
-      "status": "normal",
+      "status": "delayed",
       "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "headline": "Komuter, ETS kembali beroperasi selepas gangguan elektrik",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY0M3dzlXd19yTF8taHdTd0VTdUhZTS05WERjbEVqQllOQTFXYWlscFM0Vzc3Y1pHUkNUbk5scTF2RXMyTUJ6UU4tRnNxT1JaN21OYThYYzI5TTVvTW42VkNvYnJCZUdfNkRMd01La0hjZmo0eDJ3MXhNQ0ljTkE5a2RZZW4zZjRjeGU2NmRuM1daelg1V0hOTWFhek4?oc=5",
+      "published": "2026-09-30T08:03:01+00:00"
     },
     "lrt-kelana-jaya": {
       "status": "normal",
