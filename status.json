@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-01T06:29:32.369346+00:00",
+  "generated_at": "2026-10-01T08:55:18.282998+00:00",
   "lines": {
     "ktm-komuter": {
-      "status": "delayed",
+      "status": "normal",
       "source": "news",
-      "headline": "Komuter, ETS kembali beroperasi selepas gangguan elektrik",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY0M3dzlXd19yTF8taHdTd0VTdUhZTS05WERjbEVqQllOQTFXYWlscFM0Vzc3Y1pHUkNUbk5scTF2RXMyTUJ6UU4tRnNxT1JaN21OYThYYzI5TTVvTW42VkNvYnJCZUdfNkRMd01La0hjZmo0eDJ3MXhNQ0ljTkE5a2RZZW4zZjRjeGU2NmRuM1daelg1V0hOTWFhek4?oc=5",
-      "published": "2026-09-30T08:03:01+00:00"
+      "headline": "No disruption reported in the last 24 hours",
+      "url": "",
+      "published": null
     },
     "ktm-ets": {
-      "status": "delayed",
+      "status": "normal",
       "source": "news",
-      "headline": "Komuter, ETS kembali beroperasi selepas gangguan elektrik",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY0M3dzlXd19yTF8taHdTd0VTdUhZTS05WERjbEVqQllOQTFXYWlscFM0Vzc3Y1pHUkNUbk5scTF2RXMyTUJ6UU4tRnNxT1JaN21OYThYYzI5TTVvTW42VkNvYnJCZUdfNkRMd01La0hjZmo0eDJ3MXhNQ0ljTkE5a2RZZW4zZjRjeGU2NmRuM1daelg1V0hOTWFhek4?oc=5",
-      "published": "2026-09-30T08:03:01+00:00"
+      "headline": "No disruption reported in the last 24 hours",
+      "url": "",
+      "published": null
     },
     "lrt-kelana-jaya": {
       "status": "normal",
