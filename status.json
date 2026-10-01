@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T15:15:43.802551+00:00",
+  "generated_at": "2026-10-01T06:05:46.289226+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "delayed",
@@ -19,22 +19,22 @@
       "status": "normal",
       "source": "official",
       "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-44/",
-      "published": "2026-09-29T17:00:00+08:00"
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-45/",
+      "published": "2026-09-30T17:00:00+08:00"
     },
     "lrt-ampang": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1322/",
-      "published": "2026-09-29T16:45:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kajang (Stesen Bukit Bintang dan Pasar Seni)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-bukit-bintang-dan-pasar-seni-20/",
-      "published": "2026-09-29T19:31:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "mrt-putrajaya": {
       "status": "normal",
