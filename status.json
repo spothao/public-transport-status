@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T17:23:04.274353+00:00",
+  "generated_at": "2026-10-06T06:29:32.453793+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,30 +18,30 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-48/",
+      "published": "2026-10-05T17:00:00+08:00"
     },
     "lrt-ampang": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1332/",
+      "published": "2026-10-05T16:45:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini: Laluan Kajang (Stesen Bukit Bintang)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-bukit-bintang-17/",
+      "published": "2026-10-05T19:34:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Perkhidmatan Pulih: Laluan Putrajaya",
-      "url": "https://myrapid.com.my/perkhidmatan-pulih-laluan-putrajaya-14/",
-      "published": "2026-10-04T13:44:00+08:00"
+      "headline": "KEMAS KINI LALUAN PUTRAJAYA: PERKHIDMATAN KEMBALI BEROPERASI SEPERTI BIASA BERMULA JAM 1.27 TENGAH HARI",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-putrajaya-perkhidmatan-kembali-beroperasi-seperti-biasa-bermula-jam-1-27-tengah-hari/",
+      "published": null
     },
     "monorail": {
       "status": "normal",
