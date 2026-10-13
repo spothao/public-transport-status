@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T18:11:20.267025+00:00",
+  "generated_at": "2026-10-13T06:51:59.966653+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -16,32 +16,32 @@
       "published": null
     },
     "lrt-kelana-jaya": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kelana Jaya (Sri Rampai, Wangsa Maju, Setiawangsa, Jelatek, Masjid Jamek dan Stesen Pasar Seni )",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-sri-rampai-wangsa-maju-setiawangsa-jelatek-masjid-jamek-dan-stesen-pasar-seni-18/",
-      "published": "2026-10-12T07:30:00+08:00"
+      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-54/",
+      "published": "2026-10-13T07:30:00+08:00"
     },
     "lrt-ampang": {
       "status": "delayed",
       "source": "official",
       "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1341/",
-      "published": "2026-10-12T07:00:00+08:00"
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1343/",
+      "published": "2026-10-13T07:00:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini: Laluan Kajang (Stesen Pasar Seni dan Bukit Bintang)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-pasar-seni-dan-bukit-bintang-9/",
+      "published": "2026-10-12T19:16:00+08:00"
     },
     "mrt-putrajaya": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kelewatan Perkhidmatan: Laluan Putrajaya",
-      "url": "https://myrapid.com.my/kelewatan-perkhidmatan-laluan-putrajaya/",
-      "published": "2026-10-10T00:33:00+08:00"
+      "headline": "KEMAS KINI LALUAN PUTRAJAYA: PERKHIDMATAN KEMBALI BEROPERASI SEPERTI BIASA BERMULA JAM 1.27 TENGAH HARI",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-putrajaya-perkhidmatan-kembali-beroperasi-seperti-biasa-bermula-jam-1-27-tengah-hari/",
+      "published": null
     },
     "monorail": {
       "status": "normal",
