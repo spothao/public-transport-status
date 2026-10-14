@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T09:05:29.009362+00:00",
+  "generated_at": "2026-10-14T13:16:43.014246+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -17,22 +17,22 @@
     },
     "lrt-kelana-jaya": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     },
     "lrt-ampang": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     },
     "mrt-kajang": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     },
@@ -45,8 +45,8 @@
     },
     "monorail": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     }
