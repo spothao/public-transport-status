@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T16:24:40.794476+00:00",
+  "generated_at": "2026-10-14T05:01:10.213547+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,30 +18,30 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-54/",
-      "published": "2026-10-13T07:30:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "lrt-ampang": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1343/",
-      "published": "2026-10-13T07:00:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kajang (Stesen Pasar Seni dan Bukit Bintang)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-pasar-seni-dan-bukit-bintang-9/",
-      "published": "2026-10-12T19:16:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "mrt-putrajaya": {
       "status": "normal",
       "source": "official",
-      "headline": "KEMAS KINI LALUAN PUTRAJAYA: PERKHIDMATAN KEMBALI BEROPERASI SEPERTI BIASA BERMULA JAM 1.27 TENGAH HARI",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-putrajaya-perkhidmatan-kembali-beroperasi-seperti-biasa-bermula-jam-1-27-tengah-hari/",
-      "published": null
+      "headline": "Perkhidmatan Pulih: Laluan Putrajaya",
+      "url": "https://myrapid.com.my/perkhidmatan-pulih-laluan-putrajaya-16/",
+      "published": "2026-10-13T22:05:00+08:00"
     },
     "monorail": {
       "status": "normal",
