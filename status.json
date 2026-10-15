@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T09:11:16.189125+00:00",
+  "generated_at": "2026-10-15T13:29:35.914177+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -9,11 +9,11 @@
       "published": null
     },
     "ktm-ets": {
-      "status": "delayed",
+      "status": "normal",
       "source": "news",
-      "headline": "Berdasarkan rekod KTMB, sebanyak tujuh kes pencerobohan melibatkan individu di kawasan landasan kereta api yang telah mengakibatkan gangguan operasi tren direkodkan sepanjang tempoh Januari hingga September 2026. #malaysiagazette",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcHZmVWpyNlpFYXc5X0NsTC1xLUJFd29xOWtheUZUc0xDNE8yRGpvalBZbXlTai1WNV9nLXVHcHFhUnV3dWV2bE1hQlZzRUk3NWFQSjhHNHNza19fOVAtOTlob2g3QXBqZ2Rab3dPYmtQX3poSHZkYUhfbHhCZUFzLUtqNGdlZU9oVW84R0lPLVBNZ1JKZUlIWmdhSC1DRHRSM2RYbTBZZ1padF94UVQwTzBfbnNjRldxWkQwVnBlS2dRZkc5ak1oeVp5R0hXWWpvc3ZnSTNDSVZTclFFY0E?oc=5",
-      "published": "2026-10-14T13:01:49+00:00"
+      "headline": "No disruption reported in the last 24 hours",
+      "url": "",
+      "published": null
     },
     "lrt-kelana-jaya": {
       "status": "normal",
