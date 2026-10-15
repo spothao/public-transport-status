@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T13:59:52.217715+00:00",
+  "generated_at": "2026-10-15T04:49:51.232583+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -9,11 +9,11 @@
       "published": null
     },
     "ktm-ets": {
-      "status": "normal",
+      "status": "delayed",
       "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "headline": "Berdasarkan rekod KTMB, sebanyak tujuh kes pencerobohan melibatkan individu di kawasan landasan kereta api yang telah mengakibatkan gangguan operasi tren direkodkan sepanjang tempoh Januari hingga September 2026. #malaysiagazette",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcHZmVWpyNlpFYXc5X0NsTC1xLUJFd29xOWtheUZUc0xDNE8yRGpvalBZbXlTai1WNV9nLXVHcHFhUnV3dWV2bE1hQlZzRUk3NWFQSjhHNHNza19fOVAtOTlob2g3QXBqZ2Rab3dPYmtQX3poSHZkYUhfbHhCZUFzLUtqNGdlZU9oVW84R0lPLVBNZ1JKZUlIWmdhSC1DRHRSM2RYbTBZZ1padF94UVQwTzBfbnNjRldxWkQwVnBlS2dRZkc5ak1oeVp5R0hXWWpvc3ZnSTNDSVZTclFFY0E?oc=5",
+      "published": "2026-10-14T13:01:49+00:00"
     },
     "lrt-kelana-jaya": {
       "status": "normal",
@@ -39,9 +39,9 @@
     "mrt-putrajaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Perkhidmatan Pulih: Laluan Putrajaya",
-      "url": "https://myrapid.com.my/perkhidmatan-pulih-laluan-putrajaya-16/",
-      "published": "2026-10-13T22:05:00+08:00"
+      "headline": "KEMAS KINI LALUAN PUTRAJAYA: PERKHIDMATAN KEMBALI BEROPERASI SEPERTI BIASA BERMULA JAM 1.27 TENGAH HARI",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-putrajaya-perkhidmatan-kembali-beroperasi-seperti-biasa-bermula-jam-1-27-tengah-hari/",
+      "published": null
     },
     "monorail": {
       "status": "normal",
