@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T04:57:12.921969+00:00",
+  "generated_at": "2026-10-16T13:18:18.369935+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -16,25 +16,25 @@
       "published": null
     },
     "lrt-kelana-jaya": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "KEMASKINI PERKHIDMATAN: LALUAN KELANA JAYA",
-      "url": "https://myrapid.com.my/kemaskini-perkhidmatan-laluan-kelana-jaya-6/",
-      "published": "2026-10-15T17:40:00+08:00"
+      "headline": "Kemas Kini: Laluan Kelana Jaya (Sri Rampai, Wangsa Maju, Setiawangsa, Jelatek, Masjid Jamek dan Stesen Pasar Seni )",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-sri-rampai-wangsa-maju-setiawangsa-jelatek-masjid-jamek-dan-stesen-pasar-seni-19/",
+      "published": "2026-10-16T07:30:00+08:00"
     },
     "lrt-ampang": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1349/",
+      "published": "2026-10-16T07:00:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Recently reported in news (official status: Normal): MRT Laluan Kajang Tergendala, Terdapat Insiden Pencerobohan Dan Cubaan Mencuri Kabel",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnltbUF2amhfR2dNSHVTWWRPOUpuTGROUlNLZ0d3SUpabjBSMjUxSE00a3NhSUNqZmxzVWM3TDRHRzc0Nm9NYTI2bjFydThJV3BiZGV5NVlUS1ZIb01SN1B3Zy1FdlFoNkI1TEZYaFd5akh4aGFuNGJ0MVdxcVpMTHJpdXhEUHVXNlR3Z21RaVFpZTJXNEY4N2dhVFRPSmVvWi0zQW9BT3U3WXl3WHlCc3R5UGo?oc=5",
-      "published": null
+      "headline": "Perkhidmatan Pulih: Laluan Kajang",
+      "url": "https://myrapid.com.my/perkhidmatan-pulih-laluan-kajang-18/",
+      "published": "2026-10-16T06:34:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
