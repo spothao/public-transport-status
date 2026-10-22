@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T04:59:34.028979+00:00",
+  "generated_at": "2026-10-22T05:18:44.817909+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,9 +18,9 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini Kekerapan: Laluan Kelana Jaya",
+      "url": "https://myrapid.com.my/kemas-kini-kekerapan-laluan-kelana-jaya-11/",
+      "published": "2026-10-21T18:24:00+08:00"
     },
     "lrt-ampang": {
       "status": "normal",
@@ -32,9 +32,9 @@
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini: Laluan Kajang (Stesen Bukit Bintang , Pasar Seni dan Tun Razak Exchange)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-bukit-bintang-pasar-seni-dan-tun-razak-exchange/",
+      "published": "2026-10-21T19:29:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
