@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:05:43.699428+00:00",
+  "generated_at": "2026-10-22T04:59:34.028979+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,23 +18,23 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "KEMASKINI PERKHIDMATAN: LALUAN KELANA JAYA",
-      "url": "https://myrapid.com.my/kemaskini-perkhidmatan-laluan-kelana-jaya-11/",
-      "published": "2026-10-20T17:21:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "lrt-ampang": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Laluan Ampang/Sri Petaling \u2013",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1355/",
-      "published": "2026-10-20T16:45:00+08:00"
+      "headline": "INSIDEN MELIBATKAN BAS RAPID KL LALUAN 300 DI JALAN AMPANG",
+      "url": "https://myrapid.com.my/insiden-melibatkan-bas-rapid-kl-laluan-300-di-jalan-ampang/",
+      "published": null
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kajang (Stesen Bukit Bintang dan Pasar Seni)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-bukit-bintang-dan-pasar-seni-22/",
-      "published": "2026-10-20T19:18:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "mrt-putrajaya": {
       "status": "normal",
