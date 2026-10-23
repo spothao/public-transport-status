@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:04:30.579218+00:00",
+  "generated_at": "2026-10-23T05:00:21.153411+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,9 +18,9 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Kekerapan: Laluan Kelana Jaya",
-      "url": "https://myrapid.com.my/kemas-kini-kekerapan-laluan-kelana-jaya-11/",
-      "published": "2026-10-21T18:24:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "lrt-ampang": {
       "status": "normal",
@@ -32,16 +32,16 @@
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kajang (Stesen Bukit Bintang , Pasar Seni dan Tun Razak Exchange)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-bukit-bintang-pasar-seni-dan-tun-razak-exchange/",
-      "published": "2026-10-21T19:29:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "mrt-putrajaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Perkhidmatan Pulih: Laluan Putrajaya",
+      "url": "https://myrapid.com.my/perkhidmatan-pulih-laluan-putrajaya-18/",
+      "published": "2026-10-23T10:03:00+08:00"
     },
     "monorail": {
       "status": "normal",
