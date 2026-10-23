@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:18:03.060969+00:00",
+  "generated_at": "2026-10-23T13:31:37.954031+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,16 +18,16 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "KEMASKINI PERKHIDMATAN: LALUAN KELANA JAYA",
+      "url": "https://myrapid.com.my/kemaskini-perkhidmatan-laluan-kelana-jaya-17/",
+      "published": "2026-10-23T17:15:00+08:00"
     },
     "lrt-ampang": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "INSIDEN MELIBATKAN BAS RAPID KL LALUAN 300 DI JALAN AMPANG",
-      "url": "https://myrapid.com.my/insiden-melibatkan-bas-rapid-kl-laluan-300-di-jalan-ampang/",
-      "published": null
+      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1361/",
+      "published": "2026-10-23T16:45:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
