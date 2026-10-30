@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:31:19.582606+00:00",
+  "generated_at": "2026-10-30T05:58:00.235483+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -39,8 +39,8 @@
     "mrt-putrajaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
+      "headline": "Recently reported in news (official status: Normal): Laluan MRT Putrajaya masih terganggu, kerja pembaikan sedang dijalankan",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9XQ2JadWhaNDc4bkJOa3JTRTNnajJHNjZndHpPZnYxb0ZXMkRuNzVVMnhxTlRTZjJ5Nndxd3hLbm94TmpDRklOVklLYzRFV19VMzZmQ0Rpc0g1VUFWalhqMnZSbG83alBIc0YzQnBlZHZyUkJmTUhscmpB?oc=5",
       "published": null
     },
     "monorail": {
