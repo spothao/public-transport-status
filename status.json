@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T06:23:38.964285+00:00",
+  "generated_at": "2026-10-30T15:05:03.888834+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -19,28 +19,28 @@
       "status": "normal",
       "source": "official",
       "headline": "KEMASKINI PERKHIDMATAN: LALUAN KELANA JAYA",
-      "url": "https://myrapid.com.my/kemaskini-perkhidmatan-laluan-kelana-jaya-23/",
-      "published": "2026-10-29T18:12:00+08:00"
+      "url": "https://myrapid.com.my/kemaskini-perkhidmatan-laluan-kelana-jaya-25/",
+      "published": "2026-10-30T18:07:00+08:00"
     },
     "lrt-ampang": {
       "status": "delayed",
       "source": "official",
       "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1370/",
-      "published": "2026-10-29T16:45:00+08:00"
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1372/",
+      "published": "2026-10-30T16:45:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
       "headline": "Kemas Kini Laluan Kajang",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-53/",
-      "published": "2026-10-29T16:50:00+08:00"
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-55/",
+      "published": "2026-10-30T16:50:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
+      "headline": "Recently reported in news (official status: Normal): Laluan MRT Putrajaya masih terganggu, kerja pembaikan sedang dijalankan",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9XQ2JadWhaNDc4bkJOa3JTRTNnajJHNjZndHpPZnYxb0ZXMkRuNzVVMnhxTlRTZjJ5Nndxd3hLbm94TmpDRklOVklLYzRFV19VMzZmQ0Rpc0g1VUFWalhqMnZSbG83alBIc0YzQnBlZHZyUkJmTUhscmpB?oc=5",
       "published": null
     },
     "monorail": {
