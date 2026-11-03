@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T18:48:12.180310+00:00",
+  "generated_at": "2026-11-03T06:56:49.684614+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -16,11 +16,11 @@
       "published": null
     },
     "lrt-kelana-jaya": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "RAPID KL AMBIL TINDAKAN SEGERA SUSULAN INSIDEN PINTU TREN DI LALUAN KELANA JAYA",
-      "url": "https://myrapid.com.my/rapid-kl-ambil-tindakan-segera-susulan-insiden-pintu-tren-di-laluan-kelana-jaya-3/",
-      "published": null
+      "headline": "Kemas Kini: Laluan Kelana Jaya (Sri Rampai, Wangsa Maju, Setiawangsa, Jelatek, Masjid Jamek dan Stesen Pasar Seni )",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-sri-rampai-wangsa-maju-setiawangsa-jelatek-masjid-jamek-dan-stesen-pasar-seni-30/",
+      "published": "2026-11-02T17:10:00+08:00"
     },
     "lrt-ampang": {
       "status": "normal",
@@ -32,9 +32,9 @@
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Laluan Kajang",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-58/",
-      "published": "2026-11-01T21:31:00+08:00"
+      "headline": "SUSPEK DIPERCAYAI TERLIBAT DALAM KEGIATAN CURI KABEL DI LANDASAN LALUAN KAJANG BERJAYA DITAHAN",
+      "url": "https://myrapid.com.my/suspek-dipercayai-terlibat-dalam-kegiatan-curi-kabel-di-landasan-laluan-kajang-berjaya-ditahan/",
+      "published": null
     },
     "mrt-putrajaya": {
       "status": "normal",
