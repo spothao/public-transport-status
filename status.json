@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T16:29:45.245906+00:00",
+  "generated_at": "2026-11-04T06:37:59.898499+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -16,11 +16,11 @@
       "published": null
     },
     "lrt-kelana-jaya": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kelana Jaya (Sri Rampai, Wangsa Maju, Setiawangsa, Jelatek, Masjid Jamek dan Stesen Pasar Seni )",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-sri-rampai-wangsa-maju-setiawangsa-jelatek-masjid-jamek-dan-stesen-pasar-seni-30/",
-      "published": "2026-11-02T17:10:00+08:00"
+      "headline": "RAPID KL AMBIL TINDAKAN SEGERA SUSULAN INSIDEN PINTU TREN DI LALUAN KELANA JAYA",
+      "url": "https://myrapid.com.my/rapid-kl-ambil-tindakan-segera-susulan-insiden-pintu-tren-di-laluan-kelana-jaya-3/",
+      "published": null
     },
     "lrt-ampang": {
       "status": "normal",
