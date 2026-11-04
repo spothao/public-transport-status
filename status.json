@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T06:37:59.898499+00:00",
+  "generated_at": "2026-11-04T06:56:41.833445+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -46,9 +46,9 @@
     "monorail": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini Kekerapan: Laluan Monorel",
+      "url": "https://myrapid.com.my/kemas-kini-kekerapan-laluan-monorel-61/",
+      "published": "2026-11-03T18:14:00+08:00"
     }
   }
 }
