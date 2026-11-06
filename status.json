@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T07:20:13.602777+00:00",
+  "generated_at": "2026-11-06T15:58:22.693973+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -45,8 +45,8 @@
     },
     "monorail": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     }
