@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T16:14:03.250057+00:00",
+  "generated_at": "2026-11-09T06:48:03.204047+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,30 +18,30 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "KEMASKINI PERKHIDMATAN: LALUAN KELANA JAYA",
-      "url": "https://myrapid.com.my/kemaskini-perkhidmatan-laluan-kelana-jaya-33/",
-      "published": "2026-11-06T07:15:00+08:00"
+      "headline": "RAPID KL AMBIL TINDAKAN SEGERA SUSULAN INSIDEN PINTU TREN DI LALUAN KELANA JAYA",
+      "url": "https://myrapid.com.my/rapid-kl-ambil-tindakan-segera-susulan-insiden-pintu-tren-di-laluan-kelana-jaya-3/",
+      "published": null
     },
     "lrt-ampang": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1381/",
-      "published": "2026-11-06T06:45:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Laluan Kajang",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-67/",
-      "published": "2026-11-06T06:30:00+08:00"
+      "headline": "SUSPEK DIPERCAYAI TERLIBAT DALAM KEGIATAN CURI KABEL DI LANDASAN LALUAN KAJANG BERJAYA DITAHAN",
+      "url": "https://myrapid.com.my/suspek-dipercayai-terlibat-dalam-kegiatan-curi-kabel-di-landasan-laluan-kajang-berjaya-ditahan/",
+      "published": null
     },
     "mrt-putrajaya": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Perkhidmatan Pulih: Laluan Putrajaya",
-      "url": "https://myrapid.com.my/perkhidmatan-pulih-laluan-putrajaya-19/",
-      "published": "2026-11-06T09:01:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "monorail": {
       "status": "normal",
