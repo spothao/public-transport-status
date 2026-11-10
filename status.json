@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:27:28.357252+00:00",
+  "generated_at": "2026-11-10T07:42:08.006543+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -16,37 +16,37 @@
       "published": null
     },
     "lrt-kelana-jaya": {
-      "status": "delayed",
-      "source": "official",
-      "headline": "Perkhidmatan Pulih: Laluan Kelana Jaya",
-      "url": "https://myrapid.com.my/perkhidmatan-pulih-laluan-kelana-jaya-28/",
-      "published": "2026-11-09T21:42:00+08:00"
+      "status": "normal",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
+      "url": "",
+      "published": null
     },
     "lrt-ampang": {
-      "status": "delayed",
-      "source": "official",
-      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1383/",
-      "published": "2026-11-09T06:00:00+08:00"
+      "status": "normal",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
+      "url": "",
+      "published": null
     },
     "mrt-kajang": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     },
     "mrt-putrajaya": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     },
     "monorail": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     }
