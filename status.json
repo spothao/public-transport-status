@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:42:08.006543+00:00",
+  "generated_at": "2026-11-10T16:27:10.598993+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -17,36 +17,36 @@
     },
     "lrt-kelana-jaya": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "source": "official",
+      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-75/",
+      "published": "2026-11-10T17:00:00+08:00"
     },
     "lrt-ampang": {
-      "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "status": "delayed",
+      "source": "official",
+      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1385/",
+      "published": "2026-11-10T16:45:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "source": "official",
+      "headline": "Kemas Kini Laluan Kajang",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-70/",
+      "published": "2026-11-10T16:55:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
+      "source": "official",
+      "headline": "Normal service (per Rapid KL official)",
       "url": "",
       "published": null
     },
     "monorail": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
+      "source": "official",
+      "headline": "Normal service (per Rapid KL official)",
       "url": "",
       "published": null
     }
