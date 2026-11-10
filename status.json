@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T19:05:17.950336+00:00",
+  "generated_at": "2026-11-10T07:27:28.357252+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -16,24 +16,24 @@
       "published": null
     },
     "lrt-kelana-jaya": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "RAPID KL AMBIL TINDAKAN SEGERA SUSULAN INSIDEN PINTU TREN DI LALUAN KELANA JAYA",
-      "url": "https://myrapid.com.my/rapid-kl-ambil-tindakan-segera-susulan-insiden-pintu-tren-di-laluan-kelana-jaya-3/",
-      "published": null
+      "headline": "Perkhidmatan Pulih: Laluan Kelana Jaya",
+      "url": "https://myrapid.com.my/perkhidmatan-pulih-laluan-kelana-jaya-28/",
+      "published": "2026-11-09T21:42:00+08:00"
     },
     "lrt-ampang": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1383/",
+      "published": "2026-11-09T06:00:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "SUSPEK DIPERCAYAI TERLIBAT DALAM KEGIATAN CURI KABEL DI LANDASAN LALUAN KAJANG BERJAYA DITAHAN",
-      "url": "https://myrapid.com.my/suspek-dipercayai-terlibat-dalam-kegiatan-curi-kabel-di-landasan-laluan-kajang-berjaya-ditahan/",
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
       "published": null
     },
     "mrt-putrajaya": {
