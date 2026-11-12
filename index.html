@@ -137,6 +137,22 @@ function isResolved(text) {
   return RESUMED_WORDS.some(w => t.includes(w));
 }
 
+
+function parsePulsePublished(body) {
+  const m = String(body).match(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),?\s+(\d{4})\s+(\d{1,2}):(\d{2})\s*(am|pm)\b/i);
+  if (!m) return null;
+  const months = {january:"01",february:"02",march:"03",april:"04",may:"05",june:"06",july:"07",august:"08",september:"09",october:"10",november:"11",december:"12"};
+  const month = months[m[1].toLowerCase()];
+  const day = String(parseInt(m[2], 10)).padStart(2, "0");
+  let hour = parseInt(m[4], 10);
+  const ap = m[6].toLowerCase();
+  if (ap === "am") { if (hour === 12) hour = 0; }
+  else if (hour !== 12) hour += 12;
+  const isoLocal = `${m[3]}-${month}-${day}T${String(hour).padStart(2, "0")}:${m[5]}:00+08:00`;
+  const d = new Date(isoLocal);
+  return isNaN(d.getTime()) ? null : d.toISOString();
+}
+
 function parsePulseAlerts(markdown) {
   const result = {};
   // Feed is newest-first: the first alert per line is authoritative, so a
@@ -151,7 +167,7 @@ function parsePulseAlerts(markdown) {
         // often appear only in the alert body
         const excerpt = m[3].replace(/\s+/g, " ").slice(0, 400);
         const status = isResolved(title) ? "normal" : classifyStatus(title + " " + excerpt);
-        result[lineId] = { status, headline: title, url, source: "official-live", published: null };
+        result[lineId] = { status, headline: title, url, source: "official-live", published: parsePulsePublished(m[3]) };
         break;
       }
     }
@@ -268,7 +284,7 @@ function render(data) {
     let meta = "";
     if (s.published) {
       const d = new Date(s.published);
-      meta = "News: " + d.toLocaleString("en-MY", { dateStyle: "medium", timeStyle: "short" }) + " · ";
+      meta = "Published: " + d.toLocaleString("en-MY", { dateStyle: "medium", timeStyle: "short" }) + " · ";
     }
     const srcLabel = s.source === "official-live" ? "⚡ Rapid KL official (live)"
       : s.source === "official" ? "⚡ Rapid KL official"
