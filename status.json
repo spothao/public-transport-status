@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T06:43:40.590925+00:00",
+  "generated_at": "2026-11-16T07:13:05.332781+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -18,9 +18,9 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Perkhidmatan Pulih: Laluan Kelana Jaya",
+      "url": "https://myrapid.com.my/perkhidmatan-pulih-laluan-kelana-jaya-31/",
+      "published": "2026-11-15T09:10:00+08:00"
     },
     "lrt-ampang": {
       "status": "normal",
