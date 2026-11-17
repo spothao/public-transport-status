@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T18:53:05.126061+00:00",
+  "generated_at": "2026-11-17T08:26:23.537974+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -17,36 +17,36 @@
     },
     "lrt-kelana-jaya": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "source": "official",
+      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-79/",
+      "published": "2026-11-16T17:00:00+08:00"
     },
     "lrt-ampang": {
-      "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "status": "delayed",
+      "source": "official",
+      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1394/",
+      "published": "2026-11-16T16:45:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "source": "official",
+      "headline": "Kemas Kini: Laluan Kajang (Stesen Pasar Seni)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-pasar-seni-22/",
+      "published": "2026-11-16T19:24:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
+      "source": "official",
+      "headline": "Normal service (per Rapid KL official)",
       "url": "",
       "published": null
     },
     "monorail": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
+      "source": "official",
+      "headline": "Normal service (per Rapid KL official)",
       "url": "",
       "published": null
     }
