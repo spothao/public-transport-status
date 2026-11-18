@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T17:51:27.720570+00:00",
+  "generated_at": "2026-11-18T07:54:20.933574+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -19,22 +19,22 @@
       "status": "normal",
       "source": "official",
       "headline": "KEMASKINI PERKHIDMATAN: LALUAN KELANA JAYA",
-      "url": "https://myrapid.com.my/kemaskini-perkhidmatan-laluan-kelana-jaya-38/",
-      "published": "2026-11-17T17:15:00+08:00"
+      "url": "https://myrapid.com.my/kemaskini-perkhidmatan-laluan-kelana-jaya-39/",
+      "published": "2026-11-18T07:23:00+08:00"
     },
     "lrt-ampang": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1397/",
+      "published": "2026-11-18T06:45:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kajang (Stesen Pasar Seni)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-pasar-seni-24/",
-      "published": "2026-11-17T19:33:00+08:00"
+      "headline": "PERKHIDMATAN LALUAN KAJANG KEMBALI PULIH",
+      "url": "https://myrapid.com.my/perkhidmatan-laluan-kajang-kembali-pulih/",
+      "published": null
     },
     "mrt-putrajaya": {
       "status": "normal",
