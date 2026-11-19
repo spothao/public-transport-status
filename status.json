@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-18T17:30:39.267082+00:00",
+  "generated_at": "2026-11-19T07:35:34.306053+00:00",
   "lines": {
     "ktm-komuter": {
-      "status": "normal",
+      "status": "delayed",
       "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "headline": "Gangguan sistem semboyan akibat kecurian kabel punca KTM Komuter Utara, ETS lewat sejam",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNC11dno1Vk1uZkhzRXEwcUxERHh5T3J6TVNQVGVoWWRHeDRIZk1ra3hWeFFwSVBscjk5YVNBdWVjUUp5YmxoZVNWTHdrYlVsRE9xRGNlUEJHVWNOeWsxMnVqMC1hLUdhcmhDZTViVVVUWUtFa3NMeVFiQjJaNTZtMzR0Z0ZCT2hLeTVrWHBZTVY1X1NzS05VNlA1T2Z6amFqRnVYMUFkNTF6LXlpQzVzaUVnTnFwU0VCZlQ0bllncC0yNGlqeXpMYkZ0bTduQWNQa1dB0gHGAUFVX3lxTE1XbTJldE9SWFRlRVR2MWlZTFFMZmtwdTdQeUxfVk9LcXhEZm5sY3lXaTMzUFBxTFlNRkVxUjRXSjl3OUk3MjNwM05KWmdfSFY0SGFFOEJSbGV4TGRhenBEaDh5SVZmY2g0TUF4a1M0SUZGTlAtQ3o0V2tNZ29iWVRSQ2o4MXpBdF96ZHg4SFFSYkI0LWR6aWhHZGVOSzR2UUFabkU2dEdfZ0ZFQTJ1MWt5TFVjY1lyWEdKamFsM25BSGkxV21wQQ?oc=5",
+      "published": "2026-11-19T03:16:15+00:00"
     },
     "ktm-ets": {
       "status": "normal",
@@ -26,8 +26,8 @@
       "status": "delayed",
       "source": "official",
       "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1398/",
-      "published": "2026-11-18T16:45:00+08:00"
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1399/",
+      "published": "2026-11-19T06:45:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
