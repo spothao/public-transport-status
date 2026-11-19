@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T17:25:43.412085+00:00",
+  "generated_at": "2026-11-19T17:37:10.323316+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "delayed",
@@ -17,36 +17,36 @@
     },
     "lrt-kelana-jaya": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "source": "official",
+      "headline": "KEMASKINI PERKHIDMATAN: LALUAN KELANA JAYA",
+      "url": "https://myrapid.com.my/kemaskini-perkhidmatan-laluan-kelana-jaya-40/",
+      "published": "2026-11-18T17:15:00+08:00"
     },
     "lrt-ampang": {
-      "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "status": "delayed",
+      "source": "official",
+      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1399/",
+      "published": "2026-11-19T06:45:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "source": "official",
+      "headline": "Kemas Kini: Laluan Kajang (Stesen Pasar Seni & Bukit Bintang)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-pasar-seni-bukit-bintang-7/",
+      "published": "2026-11-18T19:23:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
+      "source": "official",
+      "headline": "PEMANTAUAN DAN RONDAAN KESELAMATAN DIPERTINGKATKAN, POLIS BANTUAN PRASARANA TAHAN SEMULA SUSPEK CURI KABEL DI LALUAN PUTRAJAYA",
+      "url": "https://myrapid.com.my/pemantauan-dan-rondaan-keselamatan-dipertingkatkan-polis-bantuan-prasarana-tahan-semula-suspek-curi-kabel-di-laluan-putrajaya/",
       "published": null
     },
     "monorail": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
+      "source": "official",
+      "headline": "Normal service (per Rapid KL official)",
       "url": "",
       "published": null
     }
