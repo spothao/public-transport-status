@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-19T17:37:10.323316+00:00",
+  "generated_at": "2026-11-20T05:55:35.208100+00:00",
   "lines": {
     "ktm-komuter": {
-      "status": "delayed",
+      "status": "normal",
       "source": "news",
-      "headline": "Gangguan sistem semboyan akibat kecurian kabel punca KTM Komuter Utara, ETS lewat sejam",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNC11dno1Vk1uZkhzRXEwcUxERHh5T3J6TVNQVGVoWWRHeDRIZk1ra3hWeFFwSVBscjk5YVNBdWVjUUp5YmxoZVNWTHdrYlVsRE9xRGNlUEJHVWNOeWsxMnVqMC1hLUdhcmhDZTViVVVUWUtFa3NMeVFiQjJaNTZtMzR0Z0ZCT2hLeTVrWHBZTVY1X1NzS05VNlA1T2Z6amFqRnVYMUFkNTF6LXlpQzVzaUVnTnFwU0VCZlQ0bllncC0yNGlqeXpMYkZ0bTduQWNQa1dB0gHGAUFVX3lxTE1XbTJldE9SWFRlRVR2MWlZTFFMZmtwdTdQeUxfVk9LcXhEZm5sY3lXaTMzUFBxTFlNRkVxUjRXSjl3OUk3MjNwM05KWmdfSFY0SGFFOEJSbGV4TGRhenBEaDh5SVZmY2g0TUF4a1M0SUZGTlAtQ3o0V2tNZ29iWVRSQ2o4MXpBdF96ZHg4SFFSYkI0LWR6aWhHZGVOSzR2UUFabkU2dEdfZ0ZFQTJ1MWt5TFVjY1lyWEdKamFsM25BSGkxV21wQQ?oc=5",
-      "published": "2026-11-19T03:16:15+00:00"
+      "headline": "No disruption reported in the last 24 hours",
+      "url": "",
+      "published": null
     },
     "ktm-ets": {
       "status": "normal",
@@ -18,23 +18,23 @@
     "lrt-kelana-jaya": {
       "status": "normal",
       "source": "official",
-      "headline": "KEMASKINI PERKHIDMATAN: LALUAN KELANA JAYA",
-      "url": "https://myrapid.com.my/kemaskini-perkhidmatan-laluan-kelana-jaya-40/",
-      "published": "2026-11-18T17:15:00+08:00"
+      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-82/",
+      "published": "2026-11-19T17:00:00+08:00"
     },
     "lrt-ampang": {
       "status": "delayed",
       "source": "official",
       "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1399/",
-      "published": "2026-11-19T06:45:00+08:00"
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1400/",
+      "published": "2026-11-19T16:45:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
       "headline": "Kemas Kini: Laluan Kajang (Stesen Pasar Seni & Bukit Bintang)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-pasar-seni-bukit-bintang-7/",
-      "published": "2026-11-18T19:23:00+08:00"
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-pasar-seni-bukit-bintang-9/",
+      "published": "2026-11-19T19:28:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
