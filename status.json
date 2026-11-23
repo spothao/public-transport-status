@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T17:14:27.318967+00:00",
+  "generated_at": "2026-11-23T07:50:31.667897+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -16,18 +16,18 @@
       "published": null
     },
     "lrt-kelana-jaya": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kelana Jaya (Stesen Kerinchi, Abdullah Hukum, Bangsar dan KL Sentral)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-stesen-kerinchi-abdullah-hukum-bangsar-dan-kl-sentral-83/",
-      "published": "2026-11-20T17:42:00+08:00"
+      "headline": "Kemas Kini: Laluan Kelana Jaya (Sri Rampai, Wangsa Maju, Setiawangsa, Jelatek, Masjid Jamek dan Stesen Pasar Seni)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-sri-rampai-wangsa-maju-setiawangsa-jelatek-masjid-jamek-dan-stesen-pasar-seni-45/",
+      "published": "2026-11-23T07:00:00+08:00"
     },
     "lrt-ampang": {
       "status": "delayed",
       "source": "official",
       "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1402/",
-      "published": "2026-11-20T17:00:00+08:00"
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1405/",
+      "published": "2026-11-23T06:45:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
