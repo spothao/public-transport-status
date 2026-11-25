@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T18:40:42.142460+00:00",
+  "generated_at": "2026-11-25T18:49:15.414461+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -17,15 +17,15 @@
     },
     "lrt-kelana-jaya": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
+      "source": "official",
+      "headline": "Normal service (per Rapid KL official)",
       "url": "",
       "published": null
     },
     "lrt-ampang": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
+      "source": "official",
+      "headline": "Normal service (per Rapid KL official)",
       "url": "",
       "published": null
     },
