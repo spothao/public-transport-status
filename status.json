@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T19:41:22.010125+00:00",
+  "generated_at": "2026-11-25T09:04:10.248456+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -16,39 +16,39 @@
       "published": null
     },
     "lrt-kelana-jaya": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kelana Jaya (Sri Rampai, Wangsa Maju, Setiawangsa, Jelatek, Masjid Jamek dan Stesen Pasar Seni)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kelana-jaya-sri-rampai-wangsa-maju-setiawangsa-jelatek-masjid-jamek-dan-stesen-pasar-seni-46/",
-      "published": "2026-11-24T07:00:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "lrt-ampang": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1407/",
-      "published": "2026-11-24T06:45:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini: Laluan Kajang (Stesen Pasar Seni & Bukit Bintang)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-pasar-seni-bukit-bintang-11/",
+      "published": "2026-11-24T19:21:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
       "source": "official",
-      "headline": "PEMANTAUAN DAN RONDAAN KESELAMATAN DIPERTINGKATKAN, POLIS BANTUAN PRASARANA TAHAN SEMULA SUSPEK CURI KABEL DI LALUAN PUTRAJAYA",
-      "url": "https://myrapid.com.my/pemantauan-dan-rondaan-keselamatan-dipertingkatkan-polis-bantuan-prasarana-tahan-semula-suspek-curi-kabel-di-laluan-putrajaya/",
-      "published": null
+      "headline": "Kemas Kini: Laluan Putrajaya (Stesen Raja Uda)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-putrajaya-stesen-raja-uda-2/",
+      "published": "2026-11-24T18:28:00+08:00"
     },
     "monorail": {
       "status": "normal",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini Kekerapan: Laluan Monorel",
+      "url": "https://myrapid.com.my/kemas-kini-kekerapan-laluan-monorel-64/",
+      "published": "2026-11-24T17:30:00+08:00"
     }
   }
 }
