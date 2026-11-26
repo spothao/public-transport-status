@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T18:49:15.414461+00:00",
+  "generated_at": "2026-11-26T08:32:34.064506+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -16,39 +16,39 @@
       "published": null
     },
     "lrt-kelana-jaya": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kelewatan Tren: Laluan Kelana Jaya",
+      "url": "https://myrapid.com.my/kelewatan-tren-laluan-kelana-jaya-73/",
+      "published": "2026-11-26T00:11:00+08:00"
     },
     "lrt-ampang": {
-      "status": "normal",
+      "status": "delayed",
       "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1409/",
+      "published": "2026-11-25T16:45:00+08:00"
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kajang (Stesen Pasar Seni & Bukit Bintang)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-pasar-seni-bukit-bintang-11/",
-      "published": "2026-11-24T19:21:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "mrt-putrajaya": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Putrajaya (Stesen Raja Uda)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-putrajaya-stesen-raja-uda-2/",
-      "published": "2026-11-24T18:28:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "monorail": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Kekerapan: Laluan Monorel",
-      "url": "https://myrapid.com.my/kemas-kini-kekerapan-laluan-monorel-64/",
-      "published": "2026-11-24T17:30:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     }
   }
 }
