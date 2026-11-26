@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T08:51:29.353286+00:00",
+  "generated_at": "2026-11-26T18:37:17.035501+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -31,22 +31,22 @@
     },
     "mrt-kajang": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     },
     "mrt-putrajaya": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     },
     "monorail": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     }
