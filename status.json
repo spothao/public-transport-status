@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:01:02.369663+00:00",
+  "generated_at": "2026-11-27T18:14:48.107405+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -25,16 +25,16 @@
     "lrt-ampang": {
       "status": "normal",
       "source": "official",
-      "headline": "Recently reported in news (official status: Normal): Morning commute disrupted after man enters Pandan Jaya LRT tracks",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcGNSMzNSUWQzcjVVdVZHWWdiaERxS29DNkl4Q0wySlY0QmQzdDRRaW1hV2I3S0tJNy1pdkt2QWJMTEFhc1FidEhuNVVMTVlWY21xRUlSNHZRMjRfOUdONERmR0tVUW92VllGNmkzNXU3WUtIVldNeDRaY0VwOGN4RW9zYjBQeXJHN3hsajRxQ1dCbFBVUG9JeDdOUlU?oc=5",
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
       "published": null
     },
     "mrt-kajang": {
       "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini: Laluan Kajang (Stesen Pasar Seni & Bukit Bintang)",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-pasar-seni-bukit-bintang-13/",
-      "published": "2026-11-26T19:18:00+08:00"
+      "headline": "Normal service (per Rapid KL official)",
+      "url": "",
+      "published": null
     },
     "mrt-putrajaya": {
       "status": "normal",
