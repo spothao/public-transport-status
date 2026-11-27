@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T18:14:48.107405+00:00",
+  "generated_at": "2026-11-27T18:25:52.166335+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -16,37 +16,37 @@
       "published": null
     },
     "lrt-kelana-jaya": {
-      "status": "normal",
-      "source": "official",
-      "headline": "KEMAS KINI PERKHIDMATAN LALUAN KELANA JAYA: PERKHIDMATAN KEMBALI BEROPERASI SEPERTI BIASA BERMULA JAM 10.09 PAGI",
-      "url": "https://myrapid.com.my/kemas-kini-perkhidmatan-laluan-kelana-jaya-perkhidmatan-kembali-beroperasi-seperti-biasa-bermula-jam-10-09-pagi/",
-      "published": null
+      "status": "delayed",
+      "source": "news",
+      "headline": "Dua calon SPM lewat ke sekolah gara-gara LRT 'buat hal' | Sinar Bestari",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVzN3V1N2RWFQVHhYTTNUa0NjSUhjLVRQVWFlVWhwaG5jRjRkQXZmSnNUSTk2X3VHUERlWWVrd2YyMXUyOWNrYms2UE5QemhiT21XcUNLcTllZnM4aGliaW85NV9kbDAwcU1sNEY3WXluMGI5Zzk1M0NNVmwyazhMMzZSSXgtMWlBbmtmcUQ5MFBMcEpFUENYbnRFLWVyVUhLT1h2MHJXaS1SZWZqUzFQZ2l3Ynh4Y03SAWhBVV95cUxNQXEzYlZwWUszSThlYkRQNHZuVlBvT1hxMlNISzFLUm9tSGQzeXhxMzAyQXJlV2lPX09xUlhWa05GS3k5Z2FEeHhCRlJfMXE3TWdQT3VXenJXeVNYSjJOM0RtU0xPOTFkWQ?oc=5",
+      "published": "2026-11-27T02:28:00+00:00"
     },
     "lrt-ampang": {
-      "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
-      "url": "",
-      "published": null
+      "status": "delayed",
+      "source": "news",
+      "headline": "Morning commute disrupted after man enters Pandan Jaya LRT tracks",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcGNSMzNSUWQzcjVVdVZHWWdiaERxS29DNkl4Q0wySlY0QmQzdDRRaW1hV2I3S0tJNy1pdkt2QWJMTEFhc1FidEhuNVVMTVlWY21xRUlSNHZRMjRfOUdONERmR0tVUW92VllGNmkzNXU3WUtIVldNeDRaY0VwOGN4RW9zYjBQeXJHN3hsajRxQ1dCbFBVUG9JeDdOUlU?oc=5",
+      "published": "2026-11-27T07:27:53+00:00"
     },
     "mrt-kajang": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     },
     "mrt-putrajaya": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     },
     "monorail": {
       "status": "normal",
-      "source": "official",
-      "headline": "Normal service (per Rapid KL official)",
+      "source": "news",
+      "headline": "No disruption reported in the last 24 hours",
       "url": "",
       "published": null
     }
