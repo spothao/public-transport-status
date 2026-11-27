@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:37:17.035501+00:00",
+  "generated_at": "2026-11-27T08:45:46.723057+00:00",
   "lines": {
     "ktm-komuter": {
       "status": "normal",
@@ -16,37 +16,37 @@
       "published": null
     },
     "lrt-kelana-jaya": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kelewatan Tren: Laluan Kelana Jaya",
-      "url": "https://myrapid.com.my/kelewatan-tren-laluan-kelana-jaya-73/",
-      "published": "2026-11-26T00:11:00+08:00"
+      "headline": "KEMAS KINI PERKHIDMATAN LALUAN KELANA JAYA: PERKHIDMATAN KEMBALI BEROPERASI SEPERTI BIASA BERMULA JAM 10.09 PAGI",
+      "url": "https://myrapid.com.my/kemas-kini-perkhidmatan-laluan-kelana-jaya-perkhidmatan-kembali-beroperasi-seperti-biasa-bermula-jam-10-09-pagi/",
+      "published": null
     },
     "lrt-ampang": {
-      "status": "delayed",
+      "status": "normal",
       "source": "official",
-      "headline": "Kemas Kini Laluan Ampang/Sri Petaling",
-      "url": "https://myrapid.com.my/kemas-kini-laluan-ampang-sri-petaling-1409/",
-      "published": "2026-11-25T16:45:00+08:00"
+      "headline": "Recently reported in news (official status: Normal): Morning commute disrupted after man enters Pandan Jaya LRT tracks",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcGNSMzNSUWQzcjVVdVZHWWdiaERxS29DNkl4Q0wySlY0QmQzdDRRaW1hV2I3S0tJNy1pdkt2QWJMTEFhc1FidEhuNVVMTVlWY21xRUlSNHZRMjRfOUdONERmR0tVUW92VllGNmkzNXU3WUtIVldNeDRaY0VwOGN4RW9zYjBQeXJHN3hsajRxQ1dCbFBVUG9JeDdOUlU?oc=5",
+      "published": null
     },
     "mrt-kajang": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
-      "url": "",
-      "published": null
+      "source": "official",
+      "headline": "Kemas Kini: Laluan Kajang (Stesen Pasar Seni & Bukit Bintang)",
+      "url": "https://myrapid.com.my/kemas-kini-laluan-kajang-stesen-pasar-seni-bukit-bintang-13/",
+      "published": "2026-11-26T19:18:00+08:00"
     },
     "mrt-putrajaya": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
+      "source": "official",
+      "headline": "Normal service (per Rapid KL official)",
       "url": "",
       "published": null
     },
     "monorail": {
       "status": "normal",
-      "source": "news",
-      "headline": "No disruption reported in the last 24 hours",
+      "source": "official",
+      "headline": "Normal service (per Rapid KL official)",
       "url": "",
       "published": null
     }
